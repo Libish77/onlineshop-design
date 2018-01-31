@@ -17,98 +17,8 @@ body{
     
 }
 
-.header{
-    background-color: #cccccc;
-    overflow: hidden;
-    padding: 0px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 5;
-    
-}
 
-.logo{
-	padding-top: 12px;
-	padding-bottom: 16px;
-	
-	float: left;
-
-}
-
-.menu-bar{
-	float: left;
-	padding: 50px 0px 0px 35px;
-}
-
-.menu-bar ul{
-	
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-	
-}
-
-.menu-bar  li{
-	text-decoration: none;
-	float: left;
-	padding-left: 14px;
-	text-transform: uppercase;
-	font-family: Afta-sans;
-	font-size: 3.07 pt;
-	
-}
-
-.menu-bar  a{
-	text-decoration: none;
-	color: black;
-}
-a:hover{
-	color:white;
-}
-
-.search-bar{
-	float: left;
-	padding-top: 33px;
-	padding-left: 129px;
-	position: relative;
-}
-
-.searchbox{
-	width:423px;
-	padding: 10px;
-	background-color: #999999;
-	border: 0px;
-	float: left;
-}
-.fa.fa-search{
-	position: absolute;
-	font-size: 20px;
-	top: 41px;
-	right: 12px;
-}
-
-.login, .cart{
-	float: left;
-	padding-left: 14px;
-	padding-top: 33px;
-}
-
-.fa.fa-user{
-	font-size: 30px;
-	border-left: 1px solid black;
-	padding-left: 10px;
-}
-
-.fa.fa-shopping-cart{
-	font-size: 30px;
-	border-left: 1px solid black;
-	padding-left: 10px;
-}
-
-/*header ends */
-
-
+/* slider starts */
 .slider-wrapper{
     position: relative;
     max-width: 1349px;
@@ -154,22 +64,25 @@ a:hover{
     display:block;
     color: wheat;
 }
-.slider-information .shop{
+.slider-information>button{
+ 
     position: absolute;
-    display: block;
     top: 170px;
-    right: 150px;
+    right: 200px;
+    background: rgba(0,0,0,0.6);
     font-size: 20px;
+    cursor: pointer;
+    color: wheat;
 }
 
 /*slider ends */
 
 /*body1 starts*/
-.wrapper-container{
+.wrapper{
 	padding-top: 35px;
 	background-color: #ffffff;
 	overflow: hidden;
-    margin-bottom: 10px;
+   padding-bottom: 40px;
 }
 .textbox
 {
@@ -183,8 +96,8 @@ a:hover{
 .container1
 {
 	padding-top: 31px;
-    margin-bottom: 451px;
-
+    
+   
 }
 .pic1
 {
@@ -222,10 +135,15 @@ a:hover{
     font-size: 15px;
     color: black;
     width: 105px;
-    text-shadow: 10px;
     float: left;
-    border-radius: 2px;
     margin-right: 8px;
+    opacity: 100px;
+}
+.cbtn:hover{
+    text-decoration-style: solid;
+    border-color: black;
+    column-fill: balance;
+    color: blue;
 }
 
 
@@ -241,6 +159,7 @@ a:hover{
     text-shadow: 1px solid black;
     text-align: center;
     margin: px;
+    opacity: 10;
 }
 .fa.fa-shopping-cart.icon{
 	font-size: 15px;
@@ -280,30 +199,31 @@ a:hover{
 	background-color: #ffcccc;
 	padding-top: 46px;
 	overflow: hidden;
-    margin-bottom: 60px;
+    padding-bottom: 50px;
 
 }
 
  span.sub{
  	font-size: 20px;
-padding-bottom: 53px;
+     padding-bottom: 53px;
  }
 
  .container2{
  	margin-top: 50px;
  	background-color: #ffffff;
- 	float: left;
+ 	
  }
  .men{
     margin-right: 32px;
  	width: 567px;
     float: left;
+    background-color: #ffffff;
     
  }
 
 .menimage{
    float: left;
-    width: 280px;
+    width: auto;
 }
 .text{
     padding-top: 50px;
@@ -351,101 +271,18 @@ span.text2{
  	
  	width: 565px;
     float: left;
+    background-color: #ffffff;
  }
 
 .womenimage{
    
     float: left;
-    width: 280px;
+    width: auto;
 }
 
 /*body2 ends */
 
-/*footer begins */
 
-.footer{
-    background-color: #663333;
-}
-
-.foot1{
-    padding-top: 50px;
-    width: 282px;
-    float: left;
-}
-.ftext{
-    
-    color: #cccccc;
-    
-    
-}
-.fmenu{
-    float: left; 
-    
-}
-
-.fmenu ul{
-    
-    list-style: none;
-    padding: 0px;
-    
-}
-.fmenu ul li{
-    color: #cccccc;
-}
-.foot2{
-    float: left;
-    padding-top: 50px;
-    width: 282px;
-}
-
-
-.foot3{
-    float: left;
-    padding-top: 50px;
-    width: 282px;
-}
-.logomenu ul{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-.logomenu ul li{
-    font-size: 20px;
-    float: left;
-    padding: 10px;
-}
-
-.foot4{
-    float: left;
-    padding-top: 60px;
-    color: #cccccc;
-    width: 282px;
-    
-}
-.last{
-    float: left;
-    padding-right:20px;
-    margin: 0px;
-}
-
-.last1{
-
-    float: left;
-    padding-right:20px;
-    margin-left: -77px;
-    padding-top: 10px;
-}
-
-.ftext2{
-    padding-top: 10px;
-}
-
-.copyright{
-      color: #cccccc;
-    
-}
-/*footer ends */
 
 @media (max-width:992px)
 {
