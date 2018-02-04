@@ -4,7 +4,7 @@
     overflow: hidden;
     padding: 0px;
     width: 100%;
-    position: fixed;
+    
     top: 0;
     z-index: 5;
     
@@ -14,50 +14,41 @@
 	padding-top: 12px;
 	padding-bottom: 16px;
 	
-	float: left;
+	
 
 }
 
 .menu-bar{
-	float: left;
-	padding: 50px 0px 0px 35px;
+	padding: 32px 0px 0px 35px;
+    color: black;
+}
+.navbar .navbar-wrapper{
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0;
+    color: black;
 }
 
-.menu-bar ul{
-	
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-	
+
+.navbar-nav li a.active,
+.navbar-nav li a:focus,
+.navbar-nav li a:hover {
+	border-top: 1px solid black;
+	color: #fff;
+	background-color: transparent;
+
 }
 
-.menu-bar  li{
-	text-decoration: none;
-	float: left;
-	padding-left: 14px;
-	text-transform: uppercase;
-	font-family: Afta-sans;
-	font-size: 3.07 pt;
-	
-}
-
-.menu-bar  a{
-	text-decoration: none;
-	color: black;
-}
-a:hover{
-	color:white;
-}
 
 .search-bar{
 	float: left;
 	padding-top: 33px;
-	padding-left: 129px;
+	width: 100%;
 	position: relative;
 }
 
 .searchbox{
-	width:423px;
+	width: 100%;
 	padding: 10px;
 	background-color: #999999;
 	border: 0px;
@@ -72,12 +63,12 @@ a:hover{
 
 .cart{
 	float: left;
-	padding-left: 14px;
+	
 	padding-top: 33px;
 }
 .login{
     float: left;
-	padding-left: 14px;
+	
 	padding-top: 33px;
     position: relative;
 }
@@ -86,22 +77,6 @@ a:hover{
 	border-left: 1px solid black;
 	padding-left: 10px;
     
-}
-.fa.fa-sort-desc{
-    cursor:pointer;
-    position: relative;
-}
-
-.extra-info{
-    position: absolute;
-    display: none;
-    top: 70px;
-    background: blue;
-    padding: 10px;
-}
-
-.login:hover > .extra-info{
-    display: block;
 }
 .fa.fa-shopping-cart{
 	font-size: 30px;
