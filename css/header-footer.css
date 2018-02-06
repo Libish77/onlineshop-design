@@ -40,48 +40,49 @@
 }
 
 
-.search-bar{
-	float: left;
-	padding-top: 33px;
-	width: 100%;
+.search-box {
+	margin-top: 40px;
 	position: relative;
 }
-
-.searchbox{
-	width: 100%;
-	padding: 10px;
-	background-color: #999999;
-	border: 0px;
-	float: left;
+.search-box input {
+    padding-right: 19px;
+    color: green;
+    background: #999999;
 }
-.fa.fa-search{
+.search-box .search-icon {
 	position: absolute;
-	font-size: 20px;
-	top: 41px;
-	right: 12px;
+    top: 0px;
+    right: 0;
+    font-size: 16px;
+    padding: 8px 6px;
+	cursor: pointer;
+}
+.header-user-info {
+	margin-top: 25px;
+}
+.header-user-info span {
+    display: block;
+	padding: 6px;
+	cursor: pointer;
+    float: left;
+}
+.user-info-wrapper {
+	padding-left: 0;
+	padding-right: 0;
 }
 
-.cart{
-	float: left;
-	
-	padding-top: 33px;
-}
-.login{
-    float: left;
-	
-	padding-top: 33px;
-    position: relative;
-}
 .fa.fa-user{
-	font-size: 30px;
-	border-left: 1px solid black;
-	padding-left: 10px;
-    
+    font-size: 27px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+   
+    margin-top: 12px;
 }
 .fa.fa-shopping-cart{
-	font-size: 30px;
+	font-size: 27px;
 	border-left: 1px solid black;
 	padding-left: 10px;
+    margin-top: 12px;
 }
 
 /*header ends */
