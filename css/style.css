@@ -63,7 +63,7 @@ body{
 }
 .pic1info {
     padding: 14px;
-    padding-bottom: 46px;
+        overflow: hidden
 }
 .picname
 {
@@ -99,7 +99,7 @@ body{
 
 
 .cbtn{
-	padding:3px;
+	
 	background: white;
 	border-radius: 2px;
 	cursor: pointer;
