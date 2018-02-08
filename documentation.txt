@@ -1,0 +1,32 @@
+Spacing Tags
+-margin
+-padding
+-top
+-bottom
+-left 
+-right
+
+hover
+
+Use of fonticon
+
+css selectors
+
+bootstrap v3
+-navbar
+-casoul
+-row
+-gridsystem
+-container-fluid
+
+buttons
+
+postion
+-absolute
+-relative
+-fixed
+
+overflow:hidden
+
+float
+
