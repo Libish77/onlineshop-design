@@ -12,14 +12,14 @@
 
 .logo{
 	padding-top: 12px;
-	padding-bottom: 16px;
+	
 	
 	
 
 }
 
 .menu-bar{
-	padding: 32px 0px 0px 35px;
+	padding: 28px 0px 0px 0px;
     color: black;
 }
 .navbar .navbar-wrapper{
@@ -70,6 +70,9 @@
 	padding-left: 0;
 	padding-right: 0;
 }
+.col-sm-4.user-info-wrapper {
+    width: -1.333333%;
+}
 
 .fa.fa-user{
     font-size: 27px;
@@ -84,6 +87,42 @@
 	padding-left: 10px;
     margin-top: 12px;
 }
+.fa.fa-sort-desc.drop{
+    font-size: 15px;
+    padding: 3px;
+}
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
 
 /*header ends */
 
@@ -95,8 +134,6 @@
 
 .foot1{
     padding-top: 50px;
-    width: 282px;
-    float: left;
 }
 .ftext{
     
@@ -119,16 +156,16 @@
     color: #cccccc;
 }
 .foot2{
-    float: left;
+    
     padding-top: 50px;
-    width: 282px;
+   
 }
 
 
 .foot3{
-    float: left;
+   color: aliceblue;
     padding-top: 50px;
-    width: 282px;
+    
 }
 .logomenu ul{
     list-style: none;
@@ -143,10 +180,10 @@
 }
 
 .foot4{
-    float: left;
+    
     padding-top: 60px;
     color: #cccccc;
-    width: 282px;
+    
     
 }
 .last{
@@ -159,7 +196,7 @@
 
     float: left;
     padding-right:20px;
-    margin-left: -77px;
+   
     padding-top: 10px;
 }
 
@@ -168,7 +205,7 @@
 }
 
 .copyright{
-      color: #cccccc;
-    
+    color: #cccccc;
+    background-color: #663333; 
 }
 /*footer ends */

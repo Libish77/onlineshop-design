@@ -19,9 +19,22 @@ body{
 /* slider starts */
 .slider-wrapper{
     position: relative;
+    width: 100%;
 }
 
-
+.slider-information{
+    position: absolute;
+    top: 187px;
+    right: 276px;
+    font-size: 20px;
+    opacity: 2;
+}
+.shop {
+    background-color: rgba(255, 0, 0, 0.3);
+    border: medium none;
+    padding: 1px;
+    cursor: pointer;
+}
 /*slider ends */
 
 /*body1 starts*/
@@ -29,7 +42,7 @@ body{
 	padding-top: 35px;
 	background-color: #ffffff;
 	overflow: hidden;
-   padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 .textbox {
     
@@ -39,9 +52,7 @@ body{
 
 	font-size:30px;
 }
-.row.text-box{
-        margin-left: 18px;
-}
+
 .container1
 {
 	padding-top: 31px;
@@ -49,43 +60,38 @@ body{
 }
 .pic1,.pic2,.pic3,.pic4
 {
-	background-color: #cccccc;
+	
 }
-.row.pic-container {
-    margin-right: 15px;
-    margin-left: 15px;
-}
+
 .picimg
 {
-    width: auto;
-    height: auto;
-    text-align: center;
+    
+   
 }
 .pic1info {
     padding: 14px;
-        overflow: hidden
+    overflow: hidden;
+    background-color: #cccccc;
 }
 .picname
 {
     display: block;
 }
-.price-btn
-{
-    padding-top: 16px;
+.price-btn {
+    padding-top: 13px;
+    overflow: hidden;
+    float: left;
 }
-.btn.btn1{
-	background-color: #ffffff;
+.btn.btn-default.btn1 {
+    background-color: #ffffff;
     border: none;
-    padding: 3px;
+    padding: 2px 19px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 15px;
     color: black;
-    width: 105px;
-    
-    float: left;
-    margin-right: 8px;
+   
     
 }
 .cbtn:hover{
@@ -96,17 +102,20 @@ body{
 }
 
 
+.custom-btn {
+    
+    overflow: hidden;
+padding-top: 8px;
+padding-left: 37px;
+}
 
-
-.cbtn{
-	
-	background: white;
-	border-radius: 2px;
-	cursor: pointer;
-	float: left;
-    width: 100px;
-    text-shadow: 1px solid black;
-    text-align: center;
+.cbtn {
+    background: #FFF none repeat scroll 0% 0%;
+border-radius: 2px;
+cursor: pointer;
+padding: 5px 19px;
+text-align: center;
+font-size: 15px;
 }
 .fa.fa-shopping-cart.icon{
 	font-size: 15px;
@@ -144,9 +153,7 @@ body{
     
  }
 
-.menimage{
-   float: left;
-}
+
 .text{
     padding-top: 50px;
 }
@@ -161,16 +168,14 @@ span.text1{
 span.text2{
     
     font-size: 15px;
-    float: left;
+    
     padding-left: 64px;
-    margin-left: -127px
+    
 }
 
  .nav-menu{
- 	padding-top: 55px;
- 	padding-left: 35px;
- 	float: left;
-    width: 43%;
+ 	    padding-top: 55px;
+        padding-left: 30px;
  }
  .nav-menu ul{
  	list-style: none;
@@ -196,11 +201,7 @@ span.text2{
     background-color: #ffffff;
  }
 
-.womenimage{
-   
-    float: left;
-    width: auto;
-}
+
 
 /*body2 ends */
 
@@ -212,7 +213,7 @@ span.text2{
     {
         background-color: red;
         padding: 0;
-        margin-top: 98px;
+        
     }
 }
 
@@ -221,7 +222,7 @@ span.text2{
     .all
     {
         background-color: blue;
-        margin-top: 98px;
+        
     }
 }
 
@@ -230,7 +231,7 @@ span.text2{
     .all
     {
         background-color: black;
-        margin-top: 98px;
+        
     }
 }
 
